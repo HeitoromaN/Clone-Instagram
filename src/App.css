@@ -1,0 +1,26 @@
+.App {
+    display: flex;
+    flex-direction: row;
+    background-color: cyan;
+}
+
+
+.Stories {
+    background-color: #161515;
+    width: 40vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Postagens {
+    background-color: rgb(39, 36, 36);
+    align-items: center;
+    height: 800vh;
+}
+
+.App {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(24, 26, 26);
+}
