@@ -14,13 +14,25 @@
 
 .Logo {
     margin: 10px;
-    max-width: 50px;
-    max-height: 50px;
+    width: 150px;
+    height: 150px;
+    align-self: center;
 }
 
 .NavagationButtons {
     margin: 13px;
-    
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #161515;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition-duration: 0.4s;
 }
 
 .NavagationButtons li {

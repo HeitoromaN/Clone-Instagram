@@ -1,4 +1,4 @@
-import logo from '../images/Instagram_icon.webp';
+import logo from '../images/proa_logo.png';
 import './ConteudoLateral.css';
 import ListItem from './Listitem.js';
 
@@ -15,12 +15,12 @@ export default function ConteudoLateral() {
 
       <img src={logo} className='Logo' alt='Logo' />
 
-      <div>
+      <div className='Navegaveis'>
         <ul className='NavagationButtons'>
-          <ListItem icon={<IoHome />} text='Home'/>
-          <ListItem icon={<IoSearch />} text='Search'/>
-          <ListItem icon={<IoCompass />} text='Explore'/>
-          <ListItem icon={<IoChatbubbleSharp />} text='Messages'/>
+          <ListItem icon={<IoHome />} text=' Home'/>
+          <ListItem icon={<IoSearch />} text=' Pesquisar'/>
+          <ListItem icon={<IoCompass />} text=' Explorar'/>
+          <ListItem icon={<IoChatbubbleSharp />} text=' Mensagem'/>
 
         </ul>
       </div>
